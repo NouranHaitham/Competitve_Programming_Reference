@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/CP_Training/cmake-build-debug/CMakeFiles/CP_Training.dir/embed.manifest"
