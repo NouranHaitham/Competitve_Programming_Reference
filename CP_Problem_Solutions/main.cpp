@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 //#include<conio.h>
 #include<stdio.h>
+#include "Number_Theory.h"
 
 # define INF LONG_MAX
 # define INF_INT INT_MAX
@@ -133,8 +134,11 @@ int main() {
 
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
+    ll x,y;
 
+    cout<<extendedEuclidean(30,20,x,y)<<" "<<x<<" "<<y<<endl;
 
+    cout<<extendedEuclidean(35,15,x,y)<<" "<<x<<" "<<y<<endl;
 
 
 

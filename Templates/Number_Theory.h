@@ -130,6 +130,73 @@ ll fastPower(ll b, ll p, ll mod)
 }
 
 
+ll extendedEuclidean(ll a,ll b,ll& x,ll& y) // a > b IMP
+{
+    if(b==0) {
+        x=1; y=0;
+        return a;
+    }
+
+    ll x2,y2;
+    ll gcd = extendedEuclidean(b,a%b,x2,y2);
+
+    x=y2;
+    y=x2-(a/b)*y2;
+
+    return gcd;
+}
+
+
+ll modInverse(ll a,ll m)
+{
+
+    ll x,y;
+    ll gcd = extendedEuclidean(a,-m,x,y);
+
+    if(gcd!=1)
+        return -1;
+
+    return (x % m + m) %m ;
+
+}
+
+
+void preprocessSPF(vector<ll> arr,ll n)
+{
+
+    for(ll i=0;i<n;i++) arr[i]=i;
+
+    for(ll i=2;i*i<=n;i++)
+    {
+        if(arr[i]==i)
+        {
+            for (ll j=i+i;j<=n;j+=i)
+            {
+                if(arr[j]==j)
+                        arr[j]=i;
+            }
+        }
+    }
+
+}
+
+
+vector<ll> SPF(ll n,vector<ll>& preSPF)
+{
+    vector<ll> spf;
+
+    while(n!=1)
+    {
+        spf.push_back(preSPF[n]);
+        n/=preSPF[n];
+    }
+
+    return spf;
+}
+
+
+
+
 
 
 
