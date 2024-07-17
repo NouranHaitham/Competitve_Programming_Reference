@@ -113,15 +113,14 @@ ll gcd(ll a,ll b)  // a must be bigger number
 
 ll fastPower(ll b, ll p, ll mod)
 {
-
     ll res=1;
     while(p>0)
     {
-       if(p%2!=0)
+       if(p & 1LL)
            res = (res *  b) %mod;
 
        b=(b * b) %mod;
-       p/=2;
+       p=p>>1LL;
 
     }
 
