@@ -57,7 +57,23 @@ build CMakeFiles\CP_Training.dir\CP_Problem_Solutions\main.cpp.obj: CXX_COMPILER
   TARGET_COMPILE_PDB = CMakeFiles\CP_Training.dir\
   TARGET_PDB = CP_Training.pdb
 
-build CMakeFiles\CP_Training.dir\CP_Problem_Solutions\FirstQuestion.cpp.obj: CXX_COMPILER__CP_Training_Debug D$:\CP_Training\CP_Problem_Solutions\FirstQuestion.cpp || cmake_object_order_depends_target_CP_Training
+build CMakeFiles\CP_Training.dir\CP_Problem_Solutions\QueryForcesSol.cpp.obj: CXX_COMPILER__CP_Training_Debug D$:\CP_Training\CP_Problem_Solutions\QueryForcesSol.cpp || cmake_object_order_depends_target_CP_Training
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
+  INCLUDES = -ID:\CP_Training\Templates
+  OBJECT_DIR = CMakeFiles\CP_Training.dir
+  OBJECT_FILE_DIR = CMakeFiles\CP_Training.dir\CP_Problem_Solutions
+  TARGET_COMPILE_PDB = CMakeFiles\CP_Training.dir\
+  TARGET_PDB = CP_Training.pdb
+
+build CMakeFiles\CP_Training.dir\CP_Problem_Solutions\StillToBeSol.cpp.obj: CXX_COMPILER__CP_Training_Debug D$:\CP_Training\CP_Problem_Solutions\StillToBeSol.cpp || cmake_object_order_depends_target_CP_Training
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
+  INCLUDES = -ID:\CP_Training\Templates
+  OBJECT_DIR = CMakeFiles\CP_Training.dir
+  OBJECT_FILE_DIR = CMakeFiles\CP_Training.dir\CP_Problem_Solutions
+  TARGET_COMPILE_PDB = CMakeFiles\CP_Training.dir\
+  TARGET_PDB = CP_Training.pdb
+
+build CMakeFiles\CP_Training.dir\CP_Problem_Solutions\NotAdjacentMatrix.cpp.obj: CXX_COMPILER__CP_Training_Debug D$:\CP_Training\CP_Problem_Solutions\NotAdjacentMatrix.cpp || cmake_object_order_depends_target_CP_Training
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
   INCLUDES = -ID:\CP_Training\Templates
   OBJECT_DIR = CMakeFiles\CP_Training.dir
@@ -73,7 +89,7 @@ build CMakeFiles\CP_Training.dir\CP_Problem_Solutions\FirstQuestion.cpp.obj: CXX
 #############################################
 # Link the executable CP_Training.exe
 
-build CP_Training.exe: CXX_EXECUTABLE_LINKER__CP_Training_Debug CMakeFiles\CP_Training.dir\CP_Problem_Solutions\main.cpp.obj CMakeFiles\CP_Training.dir\CP_Problem_Solutions\FirstQuestion.cpp.obj
+build CP_Training.exe: CXX_EXECUTABLE_LINKER__CP_Training_Debug CMakeFiles\CP_Training.dir\CP_Problem_Solutions\main.cpp.obj CMakeFiles\CP_Training.dir\CP_Problem_Solutions\QueryForcesSol.cpp.obj CMakeFiles\CP_Training.dir\CP_Problem_Solutions\StillToBeSol.cpp.obj CMakeFiles\CP_Training.dir\CP_Problem_Solutions\NotAdjacentMatrix.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

@@ -1,17 +1,16 @@
 # ninja log v5
 1	2150	7426666370419626	CMakeFiles/CP_Training.dir/main.cpp.obj	d6b84cd39ceef9a3
-1	315	7426678157125577	build.ninja	9b118a8315fec395
-858	1763	7426674109988917	CP_Training.exe	ada6368a5bf02118
+1855	2773	7431263838021201	CP_Training.exe	24424aff6f6e8f1
+1	1301	7431742945509784	build.ninja	9b118a8315fec395
 57	949	7426642778878526	CMakeFiles/CP_Training.dir/CP_Qusetion_Solutions/main2.cpp.obj	5d0a223335aee87d
-0	857	7426674101820997	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/FirstQuestion.cpp.obj	ce10ff09d977a8e9
+40	2016	7426684007168052	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/FirstQuestion.cpp.obj	ce10ff09d977a8e9
 0	1052	7426667624382159	CMakeFiles/CP_Problem_Solutions.dir/CP_Problem_Solutions/Main_Grounds.cpp.obj	557f11aacee36468
 758	1423	7426670687698337	CP_Problem_Solutions.exe	526662668707cef2
 0	757	7426670681789808	CMakeFiles/CP_Problem_Solutions.dir/CP_Problem_Solutions/FirstQuestion.cpp.obj	c2dd7bb1b1ff6f47
-0	984	7426672909253817	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/main.cpp.obj	d4e6645fc119ea35
-40	2016	7426684007168052	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/FirstQuestion.cpp.obj	ce10ff09d977a8e9
-4	2018	7426684007389889	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/main.cpp.obj	d4e6645fc119ea35
-2018	3355	7426684019263994	CP_Training.exe	ada6368a5bf02118
-2	4563	7428390453609932	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/main.cpp.obj	d4e6645fc119ea35
-4564	6864	7428390472976382	CP_Training.exe	ada6368a5bf02118
-0	2630	7428392338014316	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/main.cpp.obj	d4e6645fc119ea35
-2630	4240	7428392351382860	CP_Training.exe	ada6368a5bf02118
+1	1854	7431263830372450	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/main.cpp.obj	d4e6645fc119ea35
+93	3031	7430126211133411	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/QueryForcesSol.cpp.obj	1563653f2daaeac4
+228	4035	7430168983409471	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/Still_to_be...Sol.cpp.obj	d653f0ce9536581e
+1	1288	7430175400046013	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/StillToBeSol.cpp.obj	3449a72f247b82da
+2	2651	7430192537959532	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/NotAdjacentMatrix.cpp.obj	8d6f69003affa924
+1	2265	7431775771209836	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/main.cpp.obj	d4e6645fc119ea35
+2265	3836	7431775784149336	CP_Training.exe	24424aff6f6e8f1

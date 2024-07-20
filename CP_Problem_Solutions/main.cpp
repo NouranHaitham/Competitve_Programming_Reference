@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 //#include<conio.h>
-#include<stdio.h>
-#include "Number_Theory.h"
+//#include<stdio.h>
+//#include "Number_Theory.h"
 
 # define INF LONG_MAX
 # define INF_INT INT_MAX
@@ -14,7 +14,6 @@ using namespace std;
 int dx[]={0 ,0 ,-1 ,1};
 int dy[]={1,-1,0,0};
 
-
 const ll mod=10e8+7;
 
 bool inborder(int x,int y,int n,int m)
@@ -22,9 +21,6 @@ bool inborder(int x,int y,int n,int m)
     if(x>=0 && y>=0 && x<n && y<m) return true;
     return false;
 }
-
-
-
 void dikgstra(vector<vector<pair<pair<ll,char>,ll>>>& graph,int n,vector<ll>& dist,vector<ll>& pred)
 {
     vector<bool>visited(n+1,false);
@@ -83,8 +79,6 @@ void dikgstra(vector<vector<pair<pair<ll,char>,ll>>>& graph,int n,vector<ll>& di
 
 
 }
-
-
 vector<ll> Topo(vector<vector<ll>>& graph,ll n)
 {
     vector<ll> inDegrees(n+1,0);
@@ -133,13 +127,41 @@ vector<ll> Topo(vector<vector<ll>>& graph,ll n)
 int main() {
 
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+/*
+    int t; cin>>t;
+    while(t--)
+    {
+        ll a,b; cin>>a>>b;
 
-    ll x,y;
+            ll moves = 0;
 
-    cout<<extendedEuclidean(30,20,x,y)<<" "<<x<<" "<<y<<endl;
+            while (a!=b) {
 
-    cout<<extendedEuclidean(35,15,x,y)<<" "<<x<<" "<<y<<endl;
+                ll start = -10, end = 10, middle;
 
+                while (start < end) {
+
+                    middle = start +(end - start) / 2;
+
+                    if (a + middle <= b) {
+                        start = middle+1;
+                    } else if (a + middle > b) {
+                        end = middle-1;
+                    }
+
+                }
+
+              cout<<a<<" "<<end<<" "<<start<<endl;
+                a+=end;
+                moves++;
+
+            }
+
+
+        cout << moves << endl;
+
+    }
+    */
 
 
     return 0;
