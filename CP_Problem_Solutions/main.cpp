@@ -123,6 +123,25 @@ vector<ll> Topo(vector<vector<ll>>& graph,ll n)
 
 }
 
+ll countOnes(ll n)
+{
+    ll cnt=0;
+
+    while(n)
+    {
+        n = ((n-1) & n);
+        cnt++;
+    }
+
+    return cnt;
+}
+
+ll get(ll n,ll i)
+{
+    return (1ULL<<i) & n;
+}
+
+
 
 int main() {
 
@@ -163,6 +182,63 @@ int main() {
     }
     */
 
+    int n; cin>>n;
+    vector<ll> arr(n);
+    for(int i=0;i<n;i++) cin>>arr[i];
+
+
+    unsigned ll len1=0,sum1=0,len2=0,sum2=0;
+
+    for(ll mask=0; mask<(1<<n); mask++) {
+        vector<ll> v;
+        unsigned ll sum = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (get(mask, i)) {
+                v.push_back(arr[i]);
+                sum += arr[i];
+            }
+        }
+
+        bool dec = true, inc = true;
+
+        for (int i = 1; i < v.size(); i++)
+        {
+            if (v[i] >= v[i - 1]) {
+                dec = false;
+                break;
+            }
+        }
+
+        if (dec && v.size() >= len2) {
+            len2 = v.size();
+            sum2 = max(sum2, sum);
+        }
+
+        for (int i = 1; i < v.size(); i++) {
+            if (v[i] <= v[i - 1]) {
+                inc = false;
+                break;
+            }
+        }
+/*
+            for(int i=0;i<v.size();i++)
+            {
+                cout<<v[i]<<" ";
+            }
+            cout<<endl;
+
+            cout<<"-- "<<inc<<" "<<dec<<endl;
+*/
+        if (inc && v.size() >= len1) {
+            len1 = v.size();
+            sum1 = max(sum1, sum);
+        }
+
+    }
+
+
+    cout<<len1<<" "<<sum1<<" "<<len2<<" "<<sum2<<endl;
 
     return 0;
 }
