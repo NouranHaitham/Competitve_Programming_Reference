@@ -1,7 +1,7 @@
 # ninja log v5
 1	2150	7426666370419626	CMakeFiles/CP_Training.dir/main.cpp.obj	d6b84cd39ceef9a3
 2403	3559	7432158617812846	CP_Training.exe	24424aff6f6e8f1
-1	1301	7432759175550056	build.ninja	9b118a8315fec395
+1	1301	7433681656412399	build.ninja	9b118a8315fec395
 57	949	7426642778878526	CMakeFiles/CP_Training.dir/CP_Qusetion_Solutions/main2.cpp.obj	5d0a223335aee87d
 40	2016	7426684007168052	CMakeFiles/CP_Training.dir/CP_Problem_Solutions/FirstQuestion.cpp.obj	ce10ff09d977a8e9
 0	1052	7426667624382159	CMakeFiles/CP_Problem_Solutions.dir/CP_Problem_Solutions/Main_Grounds.cpp.obj	557f11aacee36468
