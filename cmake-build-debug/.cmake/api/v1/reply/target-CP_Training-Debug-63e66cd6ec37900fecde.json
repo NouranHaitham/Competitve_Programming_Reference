@@ -120,7 +120,9 @@
 			"sourceIndexes" : 
 			[
 				2,
-				5
+				5,
+				6,
+				7
 			]
 		}
 	],
@@ -158,6 +160,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "Templates/Bit_Masks.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Templates/Graph_Algorithms.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Templates/Imp_Notes.h",
 			"sourceGroupIndex" : 1
 		}
 	],
