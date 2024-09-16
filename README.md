@@ -1,4 +1,4 @@
-# Competitve_Programming_References 💻✨
+# Competitve_Programming_Reference 💻✨
 
 Welcome to the Competitive Programming Templates & Solutions repo! 🚀 
 
